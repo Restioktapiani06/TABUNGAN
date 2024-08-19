@@ -13,7 +13,7 @@
         <mxCell id="NIUo2YLflTtgTmz2Ka_B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NIUo2YLflTtgTmz2Ka_B-4" target="NIUo2YLflTtgTmz2Ka_B-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NIUo2YLflTtgTmz2Ka_B-8" value="Login MyAdmin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NIUo2YLflTtgTmz2Ka_B-8" value="login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="180" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="NIUo2YLflTtgTmz2Ka_B-10" value="form tabungan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -28,7 +28,7 @@
         <mxCell id="NIUo2YLflTtgTmz2Ka_B-17" value="Siswa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="700" y="260" width="80" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="NIUo2YLflTtgTmz2Ka_B-19" value="Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="NIUo2YLflTtgTmz2Ka_B-19" value="admin&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="250" width="80" height="180" as="geometry" />
         </mxCell>
         <mxCell id="NIUo2YLflTtgTmz2Ka_B-39" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="NIUo2YLflTtgTmz2Ka_B-8">
@@ -59,6 +59,12 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="140" y="380" as="sourcePoint" />
             <mxPoint x="240" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NIUo2YLflTtgTmz2Ka_B-46" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="NIUo2YLflTtgTmz2Ka_B-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="190" as="sourcePoint" />
+            <mxPoint x="680" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
