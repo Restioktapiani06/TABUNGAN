@@ -1,9 +1,78 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" version="24.7.10">
   <diagram name="Halaman-1" id="5hTjy0yaa92goEOgh47a">
-    <mxGraphModel>
+    <mxGraphModel dx="1066" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-1" value="admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="110" width="420" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-6" value="login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="180" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-7" value="kelola tabungan" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-9" value="kelola pengeluaran" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-12" value="kelola siswa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="450" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-13" value="tabungan" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="130" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-16" value="siswa" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="70" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-17" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="mqXIwTLPp3-5R-dpNxU_-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="260" as="sourcePoint" />
+            <mxPoint x="250" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-18" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="mqXIwTLPp3-5R-dpNxU_-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="280" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="mqXIwTLPp3-5R-dpNxU_-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="320" as="sourcePoint" />
+            <mxPoint x="250" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-20" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mqXIwTLPp3-5R-dpNxU_-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="370" as="sourcePoint" />
+            <mxPoint x="280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-21" value="kelola siswa" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-24" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="mqXIwTLPp3-5R-dpNxU_-7" target="mqXIwTLPp3-5R-dpNxU_-21">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="660" as="sourcePoint" />
+            <mxPoint x="290" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="mqXIwTLPp3-5R-dpNxU_-21" target="mqXIwTLPp3-5R-dpNxU_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="650" as="sourcePoint" />
+            <mxPoint x="190" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mqXIwTLPp3-5R-dpNxU_-31" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="mqXIwTLPp3-5R-dpNxU_-6" target="mqXIwTLPp3-5R-dpNxU_-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="590" as="sourcePoint" />
+            <mxPoint x="240" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
